@@ -1,10 +1,11 @@
 ox_inventory > data > items.lua
 
-    ['carkey'] = {
-		label = 'Klucz do auta',
-		consume = 0,
+
+	['sim'] = {
+		label = 'Karta SIM',
+		weight = 20,
 		client = {
 			usetime = 2500,
-			export = 'neey_keys.carkey'
-		},	
+			export = 'neey_sim.sim'
+		},		
 	},
