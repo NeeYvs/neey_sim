@@ -1,0 +1,10 @@
+ox_inventory > data > items.lua
+
+    ['carkey'] = {
+		label = 'Klucz do auta',
+		consume = 0,
+		client = {
+			usetime = 2500,
+			export = 'neey_keys.carkey'
+		},	
+	},
